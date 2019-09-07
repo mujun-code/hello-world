@@ -8,13 +8,13 @@
             width: 200px;
             height: 200px;
             position: relative;
-            margin: 100px auto;
-            /*¸¨Öú3dĞ§¹û¿ª·¢  ÊÓ¾õĞ§¹û */
-            /*Í¸ÊÓ£ºÀí½â³ÉÔÚÆÁÄ»ÍâÃæ°²ÅÅÒ»Ö»ÑÛ¾¦°ïÎÒÃÇ¿ª3dĞ§¹û*/
-            /* ĞÎ³É½ü´óÔ¶Ğ¡ Ğ§¹û  */
+/*             margin: 100px auto; */
+            /*è¾…åŠ©3dæ•ˆæœå¼€å‘  è§†è§‰æ•ˆæœ */
+            /*é€è§†ï¼šç†è§£æˆåœ¨å±å¹•å¤–é¢å®‰æ’ä¸€åªçœ¼ç›å¸®æˆ‘ä»¬å¼€3dæ•ˆæœ*/
+            /* å½¢æˆè¿‘å¤§è¿œå° æ•ˆæœ  */
             /*perspective: 300px;*/
 
-            /*ÕæÕıÒâÒåµÄ3D³ÊÏÖ */
+            /*çœŸæ­£æ„ä¹‰çš„3Då‘ˆç° */
             transform-style: preserve-3d;
 
             transform: rotateX(30deg) rotateY(-30deg);
@@ -34,31 +34,31 @@
             opacity: 0.4;
         }
         .box .front{
-            background: red;
+            background: #000;
             transform: translateZ(100px);
         }
         .box .back{
-            background: blue;
+            background: #000;
             transform: rotateY(-180deg) translateZ(100px);
         }
         .box .left{
-            background: green;
+            background: #000;
             transform: rotateY(-90deg) translateZ(100px);
         }
         .box .right{
-            background: yellow;
+            background: #000;
             transform: rotateY(-270deg) translateZ(100px);
         }
         .box .top{
-            background: pink;
+            background: #000;
             transform: rotateX(90deg) translateZ(100px);
         }
         .box .bottom{
-            background: hotpink;
+            background: #000;
             transform: rotateX(-90deg) translateZ(100px);
         }
-        /* Á¢·½ÌåµÄÖĞĞÄÔÚµçÄÔÆ½ÃæÉÏ  */
-        /* µ±ÄãÑ¡Ôñ¹ıºóÕıÃæ³¯Íâ ZÕı·½ÏòÒ²ÊÇ³¯Íâ */
+        /* ç«‹æ–¹ä½“çš„ä¸­å¿ƒåœ¨ç”µè„‘å¹³é¢ä¸Š  */
+        /* å½“ä½ é€‰æ‹©è¿‡åæ­£é¢æœå¤– Zæ­£æ–¹å‘ä¹Ÿæ˜¯æœå¤– */
 
         @keyframes rotate {
             from{
